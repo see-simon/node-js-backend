@@ -14,7 +14,8 @@ export const db = mySql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'crud'
+    database: 'crud',
+    port: 3306
 });
 
 // connect to DB
