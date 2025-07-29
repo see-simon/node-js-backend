@@ -11,10 +11,10 @@ app.use('/api/auth', authRoutes);
 
 // db connection
 export const db = mySql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'crud',
+    host: 'sql12.freesqldatabase.com',
+    user: 'sql12792456',
+    password: 'MSx8k51UrZ',
+    database: 'sql12792456',
     port: 3306
 });
 
@@ -36,6 +36,6 @@ app.get('/', (req, res) => {
     });
 });
 
-app.listen(3306, () => {
-    console.log('Server is running on port 3306');
+app.listen(8081, () => {
+    console.log('Server is running on port 8081');
 });
